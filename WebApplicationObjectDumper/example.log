@@ -1,0 +1,34 @@
+2020-05-03 22:44:56,540  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2020-05-03 22:44:56,565  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Hosting environment: Development
+ 2020-05-03 22:44:56,568  INFO Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Content root path: C:\Git\WebApplicationObjectDumper\WebApplicationObjectDumper
+ 2020-05-03 22:44:56,708  INFO WebApplicationObjectDumper.Pages.IndexModel.? [?] - MESSAGE: var testDto = new TestDto
+{
+  Status = WebApplicationObjectDumper.Dto.TestDto+TestDtoStatus.Ok,
+  Exception = new NotSupportedException
+  {
+    TargetSite = null,
+    StackTrace = null,
+    Message = "テスト",
+    Data = new ListDictionaryInternal
+    {
+    },
+    InnerException = null,
+    HelpLink = null,
+    Source = null,
+    HResult = -2146233067
+  },
+  Person = new Person
+  {
+    Name = "試作",
+    Age = 30
+  },
+  Success = true
+};
+ 2020-05-03 22:44:56,713  INFO WebApplicationObjectDumper.Pages.IndexModel.? [?] - MESSAGE: var testDto = new TestDto
+{
+  Status = WebApplicationObjectDumper.Dto.TestDto+TestDtoStatus.Unknown,
+  Exception = null,
+  Person = null,
+  Success = false
+};
+ 
